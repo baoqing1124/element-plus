@@ -848,8 +848,8 @@ declare const _default: import("vue").DefineComponent<{
     onMouseleave?: ((evt: MouseEvent) => any) | undefined;
     onMouseenter?: ((evt: MouseEvent) => any) | undefined;
 }, {
-    readonly offset: number;
     readonly effect: string;
+    readonly offset: number;
     readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
     readonly boundariesPadding: number;
     readonly fallbackPlacements: import("@popperjs/core").Placement[];

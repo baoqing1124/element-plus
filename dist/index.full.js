@@ -49379,7 +49379,7 @@
         tabsRoot.unregisterPane(pane.uid);
       });
       return (_ctx, _cache) => {
-        return vue.unref(shouldBeRender) ? vue.withDirectives((vue.openBlock(), vue.createElementBlock("div", {
+        return vue.unref(shouldBeRender) ? (vue.openBlock(), vue.createElementBlock("div", {
           key: 0,
           id: `pane-${vue.unref(paneName)}`,
           class: vue.normalizeClass(vue.unref(ns).b()),
@@ -49388,9 +49388,7 @@
           "aria-labelledby": `tab-${vue.unref(paneName)}`
         }, [
           vue.renderSlot(_ctx.$slots, "default")
-        ], 10, _hoisted_1$c)), [
-          [vue.vShow, vue.unref(active)]
-        ]) : vue.createCommentVNode("v-if", true);
+        ], 10, _hoisted_1$c)) : vue.createCommentVNode("v-if", true);
       };
     }
   });

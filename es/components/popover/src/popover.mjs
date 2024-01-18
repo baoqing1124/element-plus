@@ -2,9 +2,9 @@ import '../../../utils/index.mjs';
 import '../../tooltip/index.mjs';
 import '../../dropdown/index.mjs';
 import { buildProps } from '../../../utils/vue/props/runtime.mjs';
-import { useTooltipTriggerProps } from '../../tooltip/src/trigger.mjs';
+import { useTooltipTriggerProps } from '../../tooltip/src/trigger2.mjs';
 import { dropdownProps } from '../../dropdown/src/dropdown.mjs';
-import { useTooltipContentProps } from '../../tooltip/src/content.mjs';
+import { useTooltipContentProps } from '../../tooltip/src/content2.mjs';
 import { isBoolean } from '../../../utils/types.mjs';
 
 const popoverProps = buildProps({

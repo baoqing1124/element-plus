@@ -232,9 +232,9 @@ declare const _default: import("vue").DefineComponent<{
     onDestroy?: (() => any) | undefined;
 }, {
     readonly type: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "" | "success" | "warning" | "error" | "info", unknown>;
+    readonly title: string;
     readonly offset: number;
     readonly position: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "top-right" | "top-left" | "bottom-right" | "bottom-left", unknown>;
-    readonly title: string;
     readonly id: string;
     readonly onClick: () => void;
     readonly message: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | import("vue").VNode<import("vue").RendererNode, import("vue").RendererElement, {

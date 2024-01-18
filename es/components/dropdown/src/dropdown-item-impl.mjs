@@ -14,7 +14,7 @@ import { ROVING_FOCUS_GROUP_ITEM_INJECTION_KEY } from '../../roving-focus-group/
 import { composeRefs } from '../../../utils/vue/refs.mjs';
 import { composeEventHandlers } from '../../../utils/dom/event.mjs';
 import { EVENT_CODE } from '../../../constants/aria.mjs';
-import { COLLECTION_ITEM_SIGN } from '../../collection/src/collection.mjs';
+import { COLLECTION_ITEM_SIGN } from '../../collection/src/collection2.mjs';
 
 const _sfc_main = defineComponent({
   name: "DropdownItemImpl",

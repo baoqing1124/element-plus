@@ -2861,8 +2861,8 @@ export declare const ElSlider: import("element-plus/es/utils").SFCWithInstall<im
                         onMouseleave?: ((evt: MouseEvent) => any) | undefined;
                         onMouseenter?: ((evt: MouseEvent) => any) | undefined;
                     }, {
-                        readonly offset: number;
                         readonly effect: string;
+                        readonly offset: number;
                         readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                         readonly boundariesPadding: number;
                         readonly fallbackPlacements: import("@popperjs/core").Placement[];
@@ -3141,8 +3141,8 @@ export declare const ElSlider: import("element-plus/es/utils").SFCWithInstall<im
                     readonly hideAfter: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 200, boolean>;
                     readonly autoClose: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 0, boolean>;
                 }>>, {
-                    readonly offset: number;
                     readonly effect: string;
+                    readonly offset: number;
                     readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                     readonly showAfter: number;
                     readonly hideAfter: number;
@@ -3490,8 +3490,8 @@ export declare const ElSlider: import("element-plus/es/utils").SFCWithInstall<im
             }>> & {
                 [x: string & `on${string}`]: ((...args: any[]) => any) | undefined;
             }, {
-                offset: number;
                 effect: string;
+                offset: number;
                 placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                 showAfter: number;
                 hideAfter: number;
@@ -6204,8 +6204,8 @@ export declare const ElSlider: import("element-plus/es/utils").SFCWithInstall<im
                     onMouseleave?: ((evt: MouseEvent) => any) | undefined;
                     onMouseenter?: ((evt: MouseEvent) => any) | undefined;
                 }, {
-                    readonly offset: number;
                     readonly effect: string;
+                    readonly offset: number;
                     readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                     readonly boundariesPadding: number;
                     readonly fallbackPlacements: import("@popperjs/core").Placement[];
@@ -6484,8 +6484,8 @@ export declare const ElSlider: import("element-plus/es/utils").SFCWithInstall<im
                 readonly hideAfter: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 200, boolean>;
                 readonly autoClose: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 0, boolean>;
             }>>, {
-                readonly offset: number;
                 readonly effect: string;
+                readonly offset: number;
                 readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                 readonly showAfter: number;
                 readonly hideAfter: number;
@@ -6833,8 +6833,8 @@ export declare const ElSlider: import("element-plus/es/utils").SFCWithInstall<im
         }>> & {
             [x: string & `on${string}`]: ((...args: any[]) => any) | undefined;
         }, {
-            offset: number;
             effect: string;
+            offset: number;
             placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
             showAfter: number;
             hideAfter: number;
@@ -9550,8 +9550,8 @@ export declare const ElSlider: import("element-plus/es/utils").SFCWithInstall<im
                         onMouseleave?: ((evt: MouseEvent) => any) | undefined;
                         onMouseenter?: ((evt: MouseEvent) => any) | undefined;
                     }, {
-                        readonly offset: number;
                         readonly effect: string;
+                        readonly offset: number;
                         readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                         readonly boundariesPadding: number;
                         readonly fallbackPlacements: import("@popperjs/core").Placement[];
@@ -9830,8 +9830,8 @@ export declare const ElSlider: import("element-plus/es/utils").SFCWithInstall<im
                     readonly hideAfter: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 200, boolean>;
                     readonly autoClose: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 0, boolean>;
                 }>>, {
-                    readonly offset: number;
                     readonly effect: string;
+                    readonly offset: number;
                     readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                     readonly showAfter: number;
                     readonly hideAfter: number;
@@ -10179,8 +10179,8 @@ export declare const ElSlider: import("element-plus/es/utils").SFCWithInstall<im
             }>> & {
                 [x: string & `on${string}`]: ((...args: any[]) => any) | undefined;
             }, {
-                offset: number;
                 effect: string;
+                offset: number;
                 placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                 showAfter: number;
                 hideAfter: number;
@@ -12893,8 +12893,8 @@ export declare const ElSlider: import("element-plus/es/utils").SFCWithInstall<im
                     onMouseleave?: ((evt: MouseEvent) => any) | undefined;
                     onMouseenter?: ((evt: MouseEvent) => any) | undefined;
                 }, {
-                    readonly offset: number;
                     readonly effect: string;
+                    readonly offset: number;
                     readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                     readonly boundariesPadding: number;
                     readonly fallbackPlacements: import("@popperjs/core").Placement[];
@@ -13173,8 +13173,8 @@ export declare const ElSlider: import("element-plus/es/utils").SFCWithInstall<im
                 readonly hideAfter: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 200, boolean>;
                 readonly autoClose: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 0, boolean>;
             }>>, {
-                readonly offset: number;
                 readonly effect: string;
+                readonly offset: number;
                 readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                 readonly showAfter: number;
                 readonly hideAfter: number;
@@ -13522,8 +13522,8 @@ export declare const ElSlider: import("element-plus/es/utils").SFCWithInstall<im
         }>> & {
             [x: string & `on${string}`]: ((...args: any[]) => any) | undefined;
         }, {
-            offset: number;
             effect: string;
+            offset: number;
             placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
             showAfter: number;
             hideAfter: number;
@@ -17785,8 +17785,8 @@ export declare const ElSlider: import("element-plus/es/utils").SFCWithInstall<im
                     onMouseleave?: ((evt: MouseEvent) => any) | undefined;
                     onMouseenter?: ((evt: MouseEvent) => any) | undefined;
                 }, {
-                    readonly offset: number;
                     readonly effect: string;
+                    readonly offset: number;
                     readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                     readonly boundariesPadding: number;
                     readonly fallbackPlacements: import("@popperjs/core").Placement[];
@@ -18065,8 +18065,8 @@ export declare const ElSlider: import("element-plus/es/utils").SFCWithInstall<im
                 readonly hideAfter: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 200, boolean>;
                 readonly autoClose: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 0, boolean>;
             }>>, {
-                readonly offset: number;
                 readonly effect: string;
+                readonly offset: number;
                 readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                 readonly showAfter: number;
                 readonly hideAfter: number;
@@ -18414,8 +18414,8 @@ export declare const ElSlider: import("element-plus/es/utils").SFCWithInstall<im
         }>> & {
             [x: string & `on${string}`]: ((...args: any[]) => any) | undefined;
         }, {
-            offset: number;
             effect: string;
+            offset: number;
             placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
             showAfter: number;
             hideAfter: number;

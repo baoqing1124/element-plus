@@ -130,8 +130,8 @@ declare const _default: import("vue").DefineComponent<{
     strategy: import("../../../utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/dom").Strategy & {}) | (() => import("@floating-ui/dom").Strategy) | ((new (...args: any[]) => import("@floating-ui/dom").Strategy & {}) | (() => import("@floating-ui/dom").Strategy))[], "fixed" | "absolute", unknown, "absolute", boolean>;
     showArrow: import("../../../utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
 }>>, {
-    offset: number;
     effect: string;
+    offset: number;
     placement: import("../../../utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/dom").Placement & {}) | (() => import("@floating-ui/dom").Placement) | ((new (...args: any[]) => import("@floating-ui/dom").Placement & {}) | (() => import("@floating-ui/dom").Placement))[], "top" | "bottom" | "right" | "left" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end", unknown>;
     strategy: import("../../../utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/dom").Strategy & {}) | (() => import("@floating-ui/dom").Strategy) | ((new (...args: any[]) => import("@floating-ui/dom").Strategy & {}) | (() => import("@floating-ui/dom").Strategy))[], "fixed" | "absolute", unknown>;
     nowrap: boolean;

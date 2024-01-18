@@ -49375,7 +49375,7 @@ const _sfc_main$t = /* @__PURE__ */ defineComponent({
       tabsRoot.unregisterPane(pane.uid);
     });
     return (_ctx, _cache) => {
-      return unref(shouldBeRender) ? withDirectives((openBlock(), createElementBlock("div", {
+      return unref(shouldBeRender) ? (openBlock(), createElementBlock("div", {
         key: 0,
         id: `pane-${unref(paneName)}`,
         class: normalizeClass(unref(ns).b()),
@@ -49384,9 +49384,7 @@ const _sfc_main$t = /* @__PURE__ */ defineComponent({
         "aria-labelledby": `tab-${unref(paneName)}`
       }, [
         renderSlot(_ctx.$slots, "default")
-      ], 10, _hoisted_1$c)), [
-        [vShow, unref(active)]
-      ]) : createCommentVNode("v-if", true);
+      ], 10, _hoisted_1$c)) : createCommentVNode("v-if", true);
     };
   }
 });

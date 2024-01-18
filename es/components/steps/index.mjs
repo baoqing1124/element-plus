@@ -1,7 +1,7 @@
 import '../../utils/index.mjs';
 import Steps from './src/steps2.mjs';
-import Step from './src/item.mjs';
-export { stepProps } from './src/item2.mjs';
+import Step from './src/item2.mjs';
+export { stepProps } from './src/item.mjs';
 export { stepsEmits, stepsProps } from './src/steps.mjs';
 import { withInstall, withNoopInstall } from '../../utils/vue/install.mjs';
 

@@ -172,8 +172,8 @@ declare const _default: import("vue").DefineComponent<{
     })[], unknown, unknown, (percentage: number) => string, boolean>;
 }>>, {
     readonly type: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "circle" | "line" | "dashboard", unknown>;
-    readonly width: number;
     readonly color: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | import("./progress").ProgressFn | ProgressColor[]) & {}) | (() => string | import("./progress").ProgressFn | ProgressColor[]) | ((new (...args: any[]) => (string | import("./progress").ProgressFn | ProgressColor[]) & {}) | (() => string | import("./progress").ProgressFn | ProgressColor[]))[], unknown, unknown>;
+    readonly width: number;
     readonly strokeLinecap: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => ("inherit" | "round" | "butt" | "square") & {}) | (() => "inherit" | "round" | "butt" | "square") | ((new (...args: any[]) => ("inherit" | "round" | "butt" | "square") & {}) | (() => "inherit" | "round" | "butt" | "square"))[], unknown, unknown>;
     readonly strokeWidth: number;
     readonly indeterminate: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;

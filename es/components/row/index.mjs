@@ -1,6 +1,6 @@
 import '../../utils/index.mjs';
-import Row from './src/row.mjs';
-export { RowAlign, RowJustify, rowProps } from './src/row2.mjs';
+import Row from './src/row2.mjs';
+export { RowAlign, RowJustify, rowProps } from './src/row.mjs';
 export { rowContextKey } from './src/constants.mjs';
 import { withInstall } from '../../utils/vue/install.mjs';
 

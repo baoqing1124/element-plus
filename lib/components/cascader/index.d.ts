@@ -166,8 +166,8 @@ declare const _Cascader: SFCWithInstall<import("vue").DefineComponent<{
         $: import("vue").ComponentInternalInstance;
         $data: {};
         $props: Partial<{
-            offset: number;
             effect: string;
+            offset: number;
             placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
             showAfter: number;
             hideAfter: number;
@@ -519,7 +519,7 @@ declare const _Cascader: SFCWithInstall<import("vue").DefineComponent<{
             role: import("element-plus/es/utils").EpPropFinalized<StringConstructor, "group" | "listbox" | "grid" | "menu" | "tooltip" | "dialog" | "navigation" | "tree", unknown, "tooltip", boolean>;
         }>> & {
             [x: string & `on${string}`]: ((...args: any[]) => any) | undefined;
-        } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "offset" | "effect" | "placement" | "showAfter" | "hideAfter" | "autoClose" | "boundariesPadding" | "fallbackPlacements" | "gpuAcceleration" | "popperOptions" | "strategy" | "enterable" | "focusOnShow" | "trapping" | "stopPopperMouseEvent" | "visible" | "pure" | "virtualTriggering" | "content" | "rawContent" | "teleported" | "persistent" | "disabled" | "open" | "role" | "trigger" | "triggerKeys" | "arrowOffset" | "showArrow">;
+        } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "effect" | "offset" | "placement" | "showAfter" | "hideAfter" | "autoClose" | "boundariesPadding" | "fallbackPlacements" | "gpuAcceleration" | "popperOptions" | "strategy" | "enterable" | "focusOnShow" | "trapping" | "stopPopperMouseEvent" | "visible" | "pure" | "virtualTriggering" | "content" | "rawContent" | "teleported" | "persistent" | "disabled" | "open" | "role" | "trigger" | "triggerKeys" | "arrowOffset" | "showArrow">;
         $attrs: {
             [x: string]: unknown;
         };
@@ -3132,8 +3132,8 @@ declare const _Cascader: SFCWithInstall<import("vue").DefineComponent<{
                     onMouseleave?: ((evt: MouseEvent) => any) | undefined;
                     onMouseenter?: ((evt: MouseEvent) => any) | undefined;
                 }, {
-                    readonly offset: number;
                     readonly effect: string;
+                    readonly offset: number;
                     readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                     readonly boundariesPadding: number;
                     readonly fallbackPlacements: import("@popperjs/core").Placement[];
@@ -3412,8 +3412,8 @@ declare const _Cascader: SFCWithInstall<import("vue").DefineComponent<{
                 readonly hideAfter: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 200, boolean>;
                 readonly autoClose: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 0, boolean>;
             }>>, {
-                readonly offset: number;
                 readonly effect: string;
+                readonly offset: number;
                 readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                 readonly showAfter: number;
                 readonly hideAfter: number;
@@ -3437,8 +3437,8 @@ declare const _Cascader: SFCWithInstall<import("vue").DefineComponent<{
                 readonly disabled: boolean;
             }>;
         }, unknown, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, string[], string, {
-            offset: number;
             effect: string;
+            offset: number;
             placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
             showAfter: number;
             hideAfter: number;
@@ -6085,8 +6085,8 @@ declare const _Cascader: SFCWithInstall<import("vue").DefineComponent<{
                 onMouseleave?: ((evt: MouseEvent) => any) | undefined;
                 onMouseenter?: ((evt: MouseEvent) => any) | undefined;
             }, {
-                readonly offset: number;
                 readonly effect: string;
+                readonly offset: number;
                 readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                 readonly boundariesPadding: number;
                 readonly fallbackPlacements: import("@popperjs/core").Placement[];
@@ -6365,8 +6365,8 @@ declare const _Cascader: SFCWithInstall<import("vue").DefineComponent<{
             readonly hideAfter: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 200, boolean>;
             readonly autoClose: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 0, boolean>;
         }>>, {
-            readonly offset: number;
             readonly effect: string;
+            readonly offset: number;
             readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
             readonly showAfter: number;
             readonly hideAfter: number;
@@ -7274,8 +7274,8 @@ declare const _Cascader: SFCWithInstall<import("vue").DefineComponent<{
             options: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]) | ((new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]))[], unknown, unknown, () => import("..").CascaderOption[], boolean>;
             props: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps) | ((new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps))[], unknown, unknown, () => import("..").CascaderProps, boolean>;
         }>> & {
-            onChange?: ((...args: any[]) => any) | undefined;
             onClose?: ((...args: any[]) => any) | undefined;
+            onChange?: ((...args: any[]) => any) | undefined;
             "onUpdate:modelValue"?: ((...args: any[]) => any) | undefined;
             "onExpand-change"?: ((...args: any[]) => any) | undefined;
         } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "props" | "border" | "options">;
@@ -7307,8 +7307,8 @@ declare const _Cascader: SFCWithInstall<import("vue").DefineComponent<{
             options: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]) | ((new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]))[], unknown, unknown, () => import("..").CascaderOption[], boolean>;
             props: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps) | ((new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps))[], unknown, unknown, () => import("..").CascaderProps, boolean>;
         }>> & {
-            onChange?: ((...args: any[]) => any) | undefined;
             onClose?: ((...args: any[]) => any) | undefined;
+            onChange?: ((...args: any[]) => any) | undefined;
             "onUpdate:modelValue"?: ((...args: any[]) => any) | undefined;
             "onExpand-change"?: ((...args: any[]) => any) | undefined;
         }, {
@@ -7493,8 +7493,8 @@ declare const _Cascader: SFCWithInstall<import("vue").DefineComponent<{
         options: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]) | ((new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]))[], unknown, unknown, () => import("..").CascaderOption[], boolean>;
         props: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps) | ((new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps))[], unknown, unknown, () => import("..").CascaderProps, boolean>;
     }>> & {
-        onChange?: ((...args: any[]) => any) | undefined;
         onClose?: ((...args: any[]) => any) | undefined;
+        onChange?: ((...args: any[]) => any) | undefined;
         "onUpdate:modelValue"?: ((...args: any[]) => any) | undefined;
         "onExpand-change"?: ((...args: any[]) => any) | undefined;
     } & import("vue").ShallowUnwrapRef<{
@@ -8991,8 +8991,8 @@ declare const _Cascader: SFCWithInstall<import("vue").DefineComponent<{
         options: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]) | ((new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]))[], unknown, unknown, () => import("..").CascaderOption[], boolean>;
         props: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps) | ((new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps))[], unknown, unknown, () => import("..").CascaderProps, boolean>;
     }>> & {
-        onChange?: ((...args: any[]) => any) | undefined;
         onClose?: ((...args: any[]) => any) | undefined;
+        onChange?: ((...args: any[]) => any) | undefined;
         "onUpdate:modelValue"?: ((...args: any[]) => any) | undefined;
         "onExpand-change"?: ((...args: any[]) => any) | undefined;
     }, {
@@ -12048,8 +12048,8 @@ declare const _Cascader: SFCWithInstall<import("vue").DefineComponent<{
                 onMouseleave?: ((evt: MouseEvent) => any) | undefined;
                 onMouseenter?: ((evt: MouseEvent) => any) | undefined;
             }, {
-                readonly offset: number;
                 readonly effect: string;
+                readonly offset: number;
                 readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                 readonly boundariesPadding: number;
                 readonly fallbackPlacements: import("@popperjs/core").Placement[];
@@ -12328,8 +12328,8 @@ declare const _Cascader: SFCWithInstall<import("vue").DefineComponent<{
             readonly hideAfter: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 200, boolean>;
             readonly autoClose: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 0, boolean>;
         }>>, {
-            readonly offset: number;
             readonly effect: string;
+            readonly offset: number;
             readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
             readonly showAfter: number;
             readonly hideAfter: number;
@@ -12677,8 +12677,8 @@ declare const _Cascader: SFCWithInstall<import("vue").DefineComponent<{
     }>> & {
         [x: string & `on${string}`]: ((...args: any[]) => any) | undefined;
     }, {
-        offset: number;
         effect: string;
+        offset: number;
         placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
         showAfter: number;
         hideAfter: number;
@@ -13720,8 +13720,8 @@ export declare const ElCascader: SFCWithInstall<import("vue").DefineComponent<{
         $: import("vue").ComponentInternalInstance;
         $data: {};
         $props: Partial<{
-            offset: number;
             effect: string;
+            offset: number;
             placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
             showAfter: number;
             hideAfter: number;
@@ -14073,7 +14073,7 @@ export declare const ElCascader: SFCWithInstall<import("vue").DefineComponent<{
             role: import("element-plus/es/utils").EpPropFinalized<StringConstructor, "group" | "listbox" | "grid" | "menu" | "tooltip" | "dialog" | "navigation" | "tree", unknown, "tooltip", boolean>;
         }>> & {
             [x: string & `on${string}`]: ((...args: any[]) => any) | undefined;
-        } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "offset" | "effect" | "placement" | "showAfter" | "hideAfter" | "autoClose" | "boundariesPadding" | "fallbackPlacements" | "gpuAcceleration" | "popperOptions" | "strategy" | "enterable" | "focusOnShow" | "trapping" | "stopPopperMouseEvent" | "visible" | "pure" | "virtualTriggering" | "content" | "rawContent" | "teleported" | "persistent" | "disabled" | "open" | "role" | "trigger" | "triggerKeys" | "arrowOffset" | "showArrow">;
+        } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "effect" | "offset" | "placement" | "showAfter" | "hideAfter" | "autoClose" | "boundariesPadding" | "fallbackPlacements" | "gpuAcceleration" | "popperOptions" | "strategy" | "enterable" | "focusOnShow" | "trapping" | "stopPopperMouseEvent" | "visible" | "pure" | "virtualTriggering" | "content" | "rawContent" | "teleported" | "persistent" | "disabled" | "open" | "role" | "trigger" | "triggerKeys" | "arrowOffset" | "showArrow">;
         $attrs: {
             [x: string]: unknown;
         };
@@ -16686,8 +16686,8 @@ export declare const ElCascader: SFCWithInstall<import("vue").DefineComponent<{
                     onMouseleave?: ((evt: MouseEvent) => any) | undefined;
                     onMouseenter?: ((evt: MouseEvent) => any) | undefined;
                 }, {
-                    readonly offset: number;
                     readonly effect: string;
+                    readonly offset: number;
                     readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                     readonly boundariesPadding: number;
                     readonly fallbackPlacements: import("@popperjs/core").Placement[];
@@ -16966,8 +16966,8 @@ export declare const ElCascader: SFCWithInstall<import("vue").DefineComponent<{
                 readonly hideAfter: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 200, boolean>;
                 readonly autoClose: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 0, boolean>;
             }>>, {
-                readonly offset: number;
                 readonly effect: string;
+                readonly offset: number;
                 readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                 readonly showAfter: number;
                 readonly hideAfter: number;
@@ -16991,8 +16991,8 @@ export declare const ElCascader: SFCWithInstall<import("vue").DefineComponent<{
                 readonly disabled: boolean;
             }>;
         }, unknown, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, string[], string, {
-            offset: number;
             effect: string;
+            offset: number;
             placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
             showAfter: number;
             hideAfter: number;
@@ -19639,8 +19639,8 @@ export declare const ElCascader: SFCWithInstall<import("vue").DefineComponent<{
                 onMouseleave?: ((evt: MouseEvent) => any) | undefined;
                 onMouseenter?: ((evt: MouseEvent) => any) | undefined;
             }, {
-                readonly offset: number;
                 readonly effect: string;
+                readonly offset: number;
                 readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                 readonly boundariesPadding: number;
                 readonly fallbackPlacements: import("@popperjs/core").Placement[];
@@ -19919,8 +19919,8 @@ export declare const ElCascader: SFCWithInstall<import("vue").DefineComponent<{
             readonly hideAfter: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 200, boolean>;
             readonly autoClose: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 0, boolean>;
         }>>, {
-            readonly offset: number;
             readonly effect: string;
+            readonly offset: number;
             readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
             readonly showAfter: number;
             readonly hideAfter: number;
@@ -20828,8 +20828,8 @@ export declare const ElCascader: SFCWithInstall<import("vue").DefineComponent<{
             options: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]) | ((new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]))[], unknown, unknown, () => import("..").CascaderOption[], boolean>;
             props: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps) | ((new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps))[], unknown, unknown, () => import("..").CascaderProps, boolean>;
         }>> & {
-            onChange?: ((...args: any[]) => any) | undefined;
             onClose?: ((...args: any[]) => any) | undefined;
+            onChange?: ((...args: any[]) => any) | undefined;
             "onUpdate:modelValue"?: ((...args: any[]) => any) | undefined;
             "onExpand-change"?: ((...args: any[]) => any) | undefined;
         } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "props" | "border" | "options">;
@@ -20861,8 +20861,8 @@ export declare const ElCascader: SFCWithInstall<import("vue").DefineComponent<{
             options: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]) | ((new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]))[], unknown, unknown, () => import("..").CascaderOption[], boolean>;
             props: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps) | ((new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps))[], unknown, unknown, () => import("..").CascaderProps, boolean>;
         }>> & {
-            onChange?: ((...args: any[]) => any) | undefined;
             onClose?: ((...args: any[]) => any) | undefined;
+            onChange?: ((...args: any[]) => any) | undefined;
             "onUpdate:modelValue"?: ((...args: any[]) => any) | undefined;
             "onExpand-change"?: ((...args: any[]) => any) | undefined;
         }, {
@@ -21047,8 +21047,8 @@ export declare const ElCascader: SFCWithInstall<import("vue").DefineComponent<{
         options: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]) | ((new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]))[], unknown, unknown, () => import("..").CascaderOption[], boolean>;
         props: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps) | ((new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps))[], unknown, unknown, () => import("..").CascaderProps, boolean>;
     }>> & {
-        onChange?: ((...args: any[]) => any) | undefined;
         onClose?: ((...args: any[]) => any) | undefined;
+        onChange?: ((...args: any[]) => any) | undefined;
         "onUpdate:modelValue"?: ((...args: any[]) => any) | undefined;
         "onExpand-change"?: ((...args: any[]) => any) | undefined;
     } & import("vue").ShallowUnwrapRef<{
@@ -22545,8 +22545,8 @@ export declare const ElCascader: SFCWithInstall<import("vue").DefineComponent<{
         options: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]) | ((new (...args: any[]) => import("..").CascaderOption[]) | (() => import("..").CascaderOption[]))[], unknown, unknown, () => import("..").CascaderOption[], boolean>;
         props: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps) | ((new (...args: any[]) => import("..").CascaderProps) | (() => import("..").CascaderProps))[], unknown, unknown, () => import("..").CascaderProps, boolean>;
     }>> & {
-        onChange?: ((...args: any[]) => any) | undefined;
         onClose?: ((...args: any[]) => any) | undefined;
+        onChange?: ((...args: any[]) => any) | undefined;
         "onUpdate:modelValue"?: ((...args: any[]) => any) | undefined;
         "onExpand-change"?: ((...args: any[]) => any) | undefined;
     }, {
@@ -25602,8 +25602,8 @@ export declare const ElCascader: SFCWithInstall<import("vue").DefineComponent<{
                 onMouseleave?: ((evt: MouseEvent) => any) | undefined;
                 onMouseenter?: ((evt: MouseEvent) => any) | undefined;
             }, {
-                readonly offset: number;
                 readonly effect: string;
+                readonly offset: number;
                 readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
                 readonly boundariesPadding: number;
                 readonly fallbackPlacements: import("@popperjs/core").Placement[];
@@ -25882,8 +25882,8 @@ export declare const ElCascader: SFCWithInstall<import("vue").DefineComponent<{
             readonly hideAfter: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 200, boolean>;
             readonly autoClose: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 0, boolean>;
         }>>, {
-            readonly offset: number;
             readonly effect: string;
+            readonly offset: number;
             readonly placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
             readonly showAfter: number;
             readonly hideAfter: number;
@@ -26231,8 +26231,8 @@ export declare const ElCascader: SFCWithInstall<import("vue").DefineComponent<{
     }>> & {
         [x: string & `on${string}`]: ((...args: any[]) => any) | undefined;
     }, {
-        offset: number;
         effect: string;
+        offset: number;
         placement: import("element-plus/es/utils").EpPropMergeType<StringConstructor, import("@popperjs/core").Placement, unknown>;
         showAfter: number;
         hideAfter: number;

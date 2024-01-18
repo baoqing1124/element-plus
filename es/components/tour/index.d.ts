@@ -82,8 +82,8 @@ export declare const ElTour: import("element-plus/es/utils").SFCWithInstall<impo
         closeOnPressEscape: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, boolean, boolean>;
         targetAreaClickable: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, boolean, boolean>;
     }>> & {
-        onChange?: ((current: number) => any) | undefined;
         onClose?: ((current: number) => any) | undefined;
+        onChange?: ((current: number) => any) | undefined;
         "onUpdate:modelValue"?: ((value: boolean) => any) | undefined;
         onFinish?: (() => any) | undefined;
         "onUpdate:current"?: ((current: number) => any) | undefined;
@@ -6353,8 +6353,8 @@ export declare const ElTour: import("element-plus/es/utils").SFCWithInstall<impo
         };
         targetAreaClickable: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, boolean, boolean>;
     }>>, {
-        zIndex: number;
         fill: string;
+        zIndex: number;
         visible: boolean;
         targetAreaClickable: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     }>;
@@ -6517,8 +6517,8 @@ export declare const ElTour: import("element-plus/es/utils").SFCWithInstall<impo
     closeOnPressEscape: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, boolean, boolean>;
     targetAreaClickable: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, boolean, boolean>;
 }>> & {
-    onChange?: ((current: number) => any) | undefined;
     onClose?: ((current: number) => any) | undefined;
+    onChange?: ((current: number) => any) | undefined;
     "onUpdate:modelValue"?: ((value: boolean) => any) | undefined;
     onFinish?: (() => any) | undefined;
     "onUpdate:current"?: ((current: number) => any) | undefined;
@@ -6888,8 +6888,8 @@ export declare const ElTour: import("element-plus/es/utils").SFCWithInstall<impo
             onClick?: ((evt: MouseEvent) => any) | undefined;
         }, {
             readonly type: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "" | "default" | "success" | "warning" | "info" | "text" | "primary" | "danger", unknown>;
-            readonly link: boolean;
             readonly dark: boolean;
+            readonly link: boolean;
             readonly disabled: boolean;
             readonly text: boolean;
             readonly autofocus: boolean;
@@ -7433,8 +7433,8 @@ export declare const ElTourStep: import("element-plus/es/utils").SFCWithInstall<
         onClick?: ((evt: MouseEvent) => any) | undefined;
     }, {
         readonly type: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "" | "default" | "success" | "warning" | "info" | "text" | "primary" | "danger", unknown>;
-        readonly link: boolean;
         readonly dark: boolean;
+        readonly link: boolean;
         readonly disabled: boolean;
         readonly text: boolean;
         readonly autofocus: boolean;

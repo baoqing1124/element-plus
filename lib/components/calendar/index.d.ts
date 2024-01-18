@@ -254,8 +254,8 @@ export declare const ElCalendar: import("element-plus/es/utils").SFCWithInstall<
         onClick?: ((evt: MouseEvent) => any) | undefined;
     }, {
         readonly type: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "" | "default" | "success" | "warning" | "info" | "text" | "primary" | "danger", unknown>;
-        readonly link: boolean;
         readonly dark: boolean;
+        readonly link: boolean;
         readonly disabled: boolean;
         readonly text: boolean;
         readonly autofocus: boolean;

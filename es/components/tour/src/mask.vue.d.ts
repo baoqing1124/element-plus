@@ -64,8 +64,8 @@ declare const _default: import("vue").DefineComponent<{
     };
     targetAreaClickable: import("../../../utils").EpPropFinalized<BooleanConstructor, unknown, unknown, boolean, boolean>;
 }>>, {
-    zIndex: number;
     fill: string;
+    zIndex: number;
     visible: boolean;
     targetAreaClickable: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
 }>;

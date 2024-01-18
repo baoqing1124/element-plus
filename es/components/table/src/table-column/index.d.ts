@@ -37,7 +37,7 @@ declare const _default: import("vue").DefineComponent<{
     align: StringConstructor;
     headerAlign: StringConstructor;
     showOverflowTooltip: {
-        type: import("vue").PropType<boolean | Partial<Pick<import("../../..").ElTooltipProps, "offset" | "effect" | "placement" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "appendTo" | "transition" | "showArrow">> | undefined>;
+        type: import("vue").PropType<boolean | Partial<Pick<import("../../..").ElTooltipProps, "effect" | "offset" | "placement" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "appendTo" | "transition" | "showArrow">> | undefined>;
         default: undefined;
     };
     fixed: (BooleanConstructor | StringConstructor)[];
@@ -99,7 +99,7 @@ declare const _default: import("vue").DefineComponent<{
     align: StringConstructor;
     headerAlign: StringConstructor;
     showOverflowTooltip: {
-        type: import("vue").PropType<boolean | Partial<Pick<import("../../..").ElTooltipProps, "offset" | "effect" | "placement" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "appendTo" | "transition" | "showArrow">> | undefined>;
+        type: import("vue").PropType<boolean | Partial<Pick<import("../../..").ElTooltipProps, "effect" | "offset" | "placement" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "appendTo" | "transition" | "showArrow">> | undefined>;
         default: undefined;
     };
     fixed: (BooleanConstructor | StringConstructor)[];
@@ -127,7 +127,7 @@ declare const _default: import("vue").DefineComponent<{
     type: string;
     width: string | number;
     minWidth: string | number;
-    showOverflowTooltip: boolean | Partial<Pick<import("../../..").ElTooltipProps, "offset" | "effect" | "placement" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "appendTo" | "transition" | "showArrow">> | undefined;
+    showOverflowTooltip: boolean | Partial<Pick<import("../../..").ElTooltipProps, "effect" | "offset" | "placement" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "appendTo" | "transition" | "showArrow">> | undefined;
     sortOrders: ("ascending" | "descending" | null)[];
     sortable: string | boolean;
     resizable: boolean;

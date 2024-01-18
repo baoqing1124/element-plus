@@ -43,7 +43,7 @@ declare const _default: import("vue").DefineComponent<{
     defaultExpandAll: BooleanConstructor;
     defaultSort: import("vue").PropType<import("./table/defaults").Sort | undefined>;
     tooltipEffect: StringConstructor;
-    tooltipOptions: import("vue").PropType<Partial<Pick<import("../..").ElTooltipProps, "offset" | "effect" | "placement" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "appendTo" | "transition" | "showArrow">> | undefined>;
+    tooltipOptions: import("vue").PropType<Partial<Pick<import("../..").ElTooltipProps, "effect" | "offset" | "placement" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "appendTo" | "transition" | "showArrow">> | undefined>;
     spanMethod: import("vue").PropType<((data: {
         row: any;
         rowIndex: number;
@@ -82,7 +82,7 @@ declare const _default: import("vue").DefineComponent<{
         default: string;
     };
     tableLayout: {
-        type: import("vue").PropType<"auto" | "fixed">;
+        type: import("vue").PropType<"fixed" | "auto">;
         default: string;
     };
     scrollbarAlwaysOn: {
@@ -90,7 +90,7 @@ declare const _default: import("vue").DefineComponent<{
         default: boolean;
     };
     flexible: BooleanConstructor;
-    showOverflowTooltip: import("vue").PropType<boolean | Partial<Pick<import("../..").ElTooltipProps, "offset" | "effect" | "placement" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "appendTo" | "transition" | "showArrow">> | undefined>;
+    showOverflowTooltip: import("vue").PropType<boolean | Partial<Pick<import("../..").ElTooltipProps, "effect" | "offset" | "placement" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "appendTo" | "transition" | "showArrow">> | undefined>;
 }, {
     ns: {
         namespace: import("vue").ComputedRef<string>;
@@ -151,7 +151,7 @@ declare const _default: import("vue").DefineComponent<{
     context: Table<any>;
     computedSumText: import("vue").ComputedRef<string>;
     computedEmptyText: import("vue").ComputedRef<string>;
-    tableLayout: import("vue").ComputedRef<("auto" | "fixed") | undefined>;
+    tableLayout: import("vue").ComputedRef<("fixed" | "auto") | undefined>;
     scrollbarViewStyle: {
         display: string;
         verticalAlign: string;
@@ -223,7 +223,7 @@ declare const _default: import("vue").DefineComponent<{
     defaultExpandAll: BooleanConstructor;
     defaultSort: import("vue").PropType<import("./table/defaults").Sort | undefined>;
     tooltipEffect: StringConstructor;
-    tooltipOptions: import("vue").PropType<Partial<Pick<import("../..").ElTooltipProps, "offset" | "effect" | "placement" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "appendTo" | "transition" | "showArrow">> | undefined>;
+    tooltipOptions: import("vue").PropType<Partial<Pick<import("../..").ElTooltipProps, "effect" | "offset" | "placement" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "appendTo" | "transition" | "showArrow">> | undefined>;
     spanMethod: import("vue").PropType<((data: {
         row: any;
         rowIndex: number;
@@ -262,7 +262,7 @@ declare const _default: import("vue").DefineComponent<{
         default: string;
     };
     tableLayout: {
-        type: import("vue").PropType<"auto" | "fixed">;
+        type: import("vue").PropType<"fixed" | "auto">;
         default: string;
     };
     scrollbarAlwaysOn: {
@@ -270,7 +270,7 @@ declare const _default: import("vue").DefineComponent<{
         default: boolean;
     };
     flexible: BooleanConstructor;
-    showOverflowTooltip: import("vue").PropType<boolean | Partial<Pick<import("../..").ElTooltipProps, "offset" | "effect" | "placement" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "appendTo" | "transition" | "showArrow">> | undefined>;
+    showOverflowTooltip: import("vue").PropType<boolean | Partial<Pick<import("../..").ElTooltipProps, "effect" | "offset" | "placement" | "popperClass" | "showAfter" | "hideAfter" | "popperOptions" | "enterable" | "appendTo" | "transition" | "showArrow">> | undefined>;
 }>> & {
     onSelect?: ((...args: any[]) => any) | undefined;
     "onExpand-change"?: ((...args: any[]) => any) | undefined;
@@ -293,7 +293,7 @@ declare const _default: import("vue").DefineComponent<{
 }, {
     style: import("vue").CSSProperties;
     className: string;
-    tableLayout: "auto" | "fixed";
+    tableLayout: "fixed" | "auto";
     border: boolean;
     data: any[];
     fit: boolean;

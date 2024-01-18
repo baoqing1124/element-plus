@@ -82,8 +82,8 @@ declare const _default: import("vue").DefineComponent<{
         closeOnPressEscape: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, boolean, boolean>;
         targetAreaClickable: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, boolean, boolean>;
     }>> & {
-        onChange?: ((current: number) => any) | undefined;
         onClose?: ((current: number) => any) | undefined;
+        onChange?: ((current: number) => any) | undefined;
         "onUpdate:modelValue"?: ((value: boolean) => any) | undefined;
         onFinish?: (() => any) | undefined;
         "onUpdate:current"?: ((current: number) => any) | undefined;
@@ -6353,8 +6353,8 @@ declare const _default: import("vue").DefineComponent<{
         };
         targetAreaClickable: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, boolean, boolean>;
     }>>, {
-        zIndex: number;
         fill: string;
+        zIndex: number;
         visible: boolean;
         targetAreaClickable: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     }>;
@@ -6517,8 +6517,8 @@ declare const _default: import("vue").DefineComponent<{
     closeOnPressEscape: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, boolean, boolean>;
     targetAreaClickable: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, boolean, boolean>;
 }>> & {
-    onChange?: ((current: number) => any) | undefined;
     onClose?: ((current: number) => any) | undefined;
+    onChange?: ((current: number) => any) | undefined;
     "onUpdate:modelValue"?: ((value: boolean) => any) | undefined;
     onFinish?: (() => any) | undefined;
     "onUpdate:current"?: ((current: number) => any) | undefined;

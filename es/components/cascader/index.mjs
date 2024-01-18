@@ -1,5 +1,5 @@
-import Cascader from './src/cascader.mjs';
-export { cascaderEmits, cascaderProps } from './src/cascader2.mjs';
+import Cascader from './src/cascader2.mjs';
+export { cascaderEmits, cascaderProps } from './src/cascader.mjs';
 import './src/instances.mjs';
 
 Cascader.install = (app) => {

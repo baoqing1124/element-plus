@@ -5,7 +5,7 @@ import '../../../constants/index.mjs';
 import { ElIcon } from '../../icon/index.mjs';
 import { ArrowLeft, ArrowRight, Close } from '@element-plus/icons-vue';
 import '../../../hooks/index.mjs';
-import TabBar from './tab-bar2.mjs';
+import TabBar from './tab-bar.mjs';
 import { tabsRootContextKey } from './constants.mjs';
 import { buildProps, definePropType } from '../../../utils/vue/props/runtime.mjs';
 import { mutable } from '../../../utils/typescript.mjs';

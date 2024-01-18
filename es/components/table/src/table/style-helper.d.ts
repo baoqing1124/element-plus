@@ -25,7 +25,7 @@ declare function useStyle<T>(props: TableProps<T>, layout: TableLayout<T>, store
     tableBodyStyles: import("vue").ComputedRef<{
         width: string;
     }>;
-    tableLayout: import("vue").ComputedRef<("auto" | "fixed") | undefined>;
+    tableLayout: import("vue").ComputedRef<("fixed" | "auto") | undefined>;
     scrollbarViewStyle: {
         display: string;
         verticalAlign: string;

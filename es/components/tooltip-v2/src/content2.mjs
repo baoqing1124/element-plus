@@ -9,7 +9,7 @@ import _export_sfc from '../../../_virtual/plugin-vue_export-helper.mjs';
 import { useFloating, arrowMiddleware } from '../../../hooks/use-floating/index.mjs';
 import { useZIndex } from '../../../hooks/use-z-index/index.mjs';
 import { useNamespace } from '../../../hooks/use-namespace/index.mjs';
-import ElVisuallyHidden from '../../visual-hidden/src/visual-hidden2.mjs';
+import ElVisuallyHidden from '../../visual-hidden/src/visual-hidden.mjs';
 
 const _hoisted_1 = ["data-side"];
 const __default__ = defineComponent({

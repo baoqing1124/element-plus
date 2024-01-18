@@ -1,6 +1,6 @@
 import '../../utils/index.mjs';
-import Watermark from './src/watermark.mjs';
-export { watermarkProps } from './src/watermark2.mjs';
+import Watermark from './src/watermark2.mjs';
+export { watermarkProps } from './src/watermark.mjs';
 import { withInstall } from '../../utils/vue/install.mjs';
 
 const ElWatermark = withInstall(Watermark);
